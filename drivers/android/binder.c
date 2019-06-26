@@ -3833,8 +3833,8 @@ static void binder_deferred_release(struct binder_proc *proc)
 static void binder_deferred_func(struct work_struct *work)
 {
 	struct binder_proc *proc;
-	struct binder_context *context =
-		container_of(work, struct binder_context, deferred_work);
+	struct binder_context *context = container_of(
+		work, struct binder_context, deferred_work);
 
 	int defer;
 

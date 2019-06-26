@@ -1985,4 +1985,3 @@ module_init(msm_vfe44_init_module);
 module_exit(msm_vfe44_exit_module);
 MODULE_DESCRIPTION("MSM VFE44 driver");
 MODULE_LICENSE("GPL v2");
-

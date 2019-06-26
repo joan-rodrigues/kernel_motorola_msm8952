@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2012-2014, 2018 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2015, 2018 The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -455,5 +455,3 @@ module_platform_driver(msm_dbm_driver);
 
 MODULE_DESCRIPTION("MSM USB DBM 1.5 driver");
 MODULE_LICENSE("GPL v2");
-
-
